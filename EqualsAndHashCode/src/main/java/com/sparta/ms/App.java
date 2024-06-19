@@ -7,5 +7,7 @@ public class App {
 
         System.out.println(spartan1==spartan2); //false
         System.out.println(spartan1.equals(spartan2));//true because of overridden equals method
+        System.out.println(spartan1.hashCode());
+        System.out.println(spartan2.hashCode());
     }
 }
